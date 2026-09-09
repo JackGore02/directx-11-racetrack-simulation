@@ -90,6 +90,7 @@ DirectX11 Racetrack Simulation.sln
 |   |   |-- LJMUSpriteOverlay.*         # 2D sprite overlay rendering
 |   |   `-- LJMUTextOverlay.*           # Diagnostic text rendering
 |   `-- Data/
+<<<<<<< Updated upstream
 |       |-- Models/                     # Car, bull, and example OBJ models
 |       |-- Shaders/                    # HLSL rendering shaders
 |       `-- Textures/                   # Scene, model, sky, and HUD textures
@@ -100,6 +101,18 @@ DirectX11 Racetrack Simulation.sln
 `-- Dependencies/
     |-- DirectXTK/                      # DirectX helper library
     `-- lua-5.1.4/                      # Bundled Lua source and library project
+=======
+|       |-- Models/                      # Car, bull, and example OBJ models
+|       |-- Shaders/                     # HLSL rendering shaders
+|       `-- Textures/                    # Scene, model, sky, and HUD textures
+|-- Source/                              # Hieroglyph 3 engine source
+|-- SDK/
+|   |-- Include/                         # Hieroglyph public headers
+|   `-- Library/                         # Hieroglyph static libraries
+`-- Dependencies/
+    |-- DirectXTK/                       # DirectX helper library
+    `-- lua-5.1.4/                       # Bundled Lua source and library project
+>>>>>>> Stashed changes
 ```
 
 ## How it works
@@ -113,3 +126,8 @@ The car uses a sequence of world-space checkpoints. Each frame, the simulation c
 ## Disclaimer
 
 This project was developed as commissioned coursework for university assessment. The source code presented here is published solely for educational and portfolio purposes only. No permission is granted to reproduce, distribute, submit, or adapt it without prior written permission.
+<<<<<<< Updated upstream
+=======
+
+I was the sole developer of the application-specific scene, simulation, and rendering work. The repository also contains third-party framework and library code used by the supplied coursework template.
+>>>>>>> Stashed changes

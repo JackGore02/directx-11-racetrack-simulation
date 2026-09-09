@@ -76,6 +76,8 @@ StyleCopReport.xml
 *.ilk
 *.meta
 *.obj
+# Wavefront model assets used by the application
+!/Applications/Data/Models/**/*.obj
 *.iobj
 *.pch
 *.pdb
